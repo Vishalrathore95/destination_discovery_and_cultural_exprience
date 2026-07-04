@@ -1,0 +1,8 @@
+/* App-specific custom style overrides */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}

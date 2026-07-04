@@ -1,0 +1,14 @@
+@import "./styles/global.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-primary-custom {
+    color: var(--text-primary);
+  }
+  .bg-primary-custom {
+    background-color: var(--bg-primary);
+  }
+}

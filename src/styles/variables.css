@@ -1,0 +1,95 @@
+:root {
+  /* Font Families */
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  /* Theme: Light Mode (Warm Earth & Deep Sea) */
+  --bg-primary: #fcfbfa;
+  --bg-secondary: #f4f1ea;
+  --bg-tertiary: #eae5d8;
+  --text-primary: #1c1917;
+  --text-secondary: #44403c;
+  --text-muted: #78716c;
+  
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-light: #e0e7ff;
+  
+  --secondary: #c2410c; /* Terracotta */
+  --secondary-hover: #9a3412;
+  --secondary-light: #ffedd5;
+  
+  --accent: #d97706; /* Warm Gold */
+  --accent-hover: #b45309;
+  --accent-light: #fef3c7;
+  
+  --border: #e7e5e4;
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --card-border: rgba(231, 229, 228, 0.5);
+  
+  /* Status Colors */
+  --success: #15803d;
+  --error: #b91c1c;
+  --warning: #b45309;
+  --info: #0369a1;
+
+  /* Accessibility Size Scaling */
+  --font-scale: 1;
+}
+
+/* Dark Mode Theme */
+.dark {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  
+  --primary: #818cf8;
+  --primary-hover: #6366f1;
+  --primary-light: #312e81;
+  
+  --secondary: #f97316;
+  --secondary-hover: #ea580c;
+  --secondary-light: #431407;
+  
+  --accent: #fbbf24;
+  --accent-hover: #f59e0b;
+  --accent-light: #451a03;
+  
+  --border: #334155;
+  --card-bg: rgba(30, 41, 59, 0.8);
+  --card-border: rgba(51, 65, 85, 0.5);
+}
+
+/* High Contrast Mode Theme */
+.high-contrast {
+  --bg-primary: #000000;
+  --bg-secondary: #121212;
+  --bg-tertiary: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #ffff00; /* High contrast yellow */
+  --text-muted: #ffffff;
+  
+  --primary: #ffffff;
+  --primary-hover: #ffff00;
+  --primary-light: #000000;
+  
+  --secondary: #ffff00;
+  --secondary-hover: #ffffff;
+  --secondary-light: #000000;
+  
+  --accent: #00ffff; /* Cyan */
+  --accent-hover: #ffffff;
+  --accent-light: #000000;
+  
+  --border: #ffffff;
+  --card-bg: #000000;
+  --card-border: #ffffff;
+  
+  --success: #00ff00;
+  --error: #ff0000;
+  --warning: #ffff00;
+  --info: #00ffff;
+}

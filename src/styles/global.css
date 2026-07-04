@@ -1,0 +1,41 @@
+@import './variables.css';
+@import './animations.css';
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: calc(1rem * var(--font-scale));
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}

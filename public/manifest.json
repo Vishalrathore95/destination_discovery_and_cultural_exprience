@@ -1,0 +1,9 @@
+{
+  "short_name": "CulturalCompass",
+  "name": "Cultural Compass AI travel & cultural discovery platform",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4f46e5",
+  "background_color": "#ffffff"
+}
